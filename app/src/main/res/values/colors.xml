@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ABackground">#0099cc</color> <!-- background color for Activity A -->
+    <color name="AButton">#3d99b7</color> <!-- background color for button in Activity A -->
+    <color name="BBackground">#669900</color> <!-- background color for Activity B -->
+     <color name="BButton">#7a993d</color> <!-- background color for button in Activity B -->
+    <color name="CBackground">#cc0000</color> <!-- background color for Activity C -->
+    <color name="CButton">#b73d3d</color> <!-- background color for button in Activity C -->
+    <color name="header">#a7def3</color> <!-- color for header text -->
+    <color name="DialogBackground">#ffa500</color>
+</resources>

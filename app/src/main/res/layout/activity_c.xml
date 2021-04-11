@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/CBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_c"
+        android:textColor="@color/header"
+        android:textSize="@android:dimen/app_icon_size"/>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="startAByC"
+            android:text="@string/start_a"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:onClick="startBByC"
+            android:text="@string/start_b"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:onClick="finishC"
+            android:text="@string/finish_c"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:onClick="startDialog"
+            android:text="@string/dialog"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/lifecycle_method_list"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:layout_gravity="start"
+        android:textColor="@color/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/lifecycle_method_list"
+        android:fadeScrollbars="false"
+        android:layout_marginHorizontal="7dp"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:text="@string/activity_status"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:layout_gravity="start"
+        android:textColor="@color/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:fadeScrollbars="false"
+        android:scrollbarSize="10dp"
+        android:id="@+id/activity_status"
+        android:layout_marginHorizontal="7dp"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"/>
+
+</LinearLayout>

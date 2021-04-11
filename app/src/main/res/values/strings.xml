@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ActivityLifecycle</string>
+
+    <string name="lifecycle_method_list">Lifecycle Method List</string>
+    <string name="activity_status">Activity Status</string>
+
+    <string name="activity_a">Activity A</string>
+    <string name="activity_b">Activity B</string>
+    <string name="activity_c">Activity C</string>
+
+    <string name="start_a">Start A</string>
+    <string name="start_b">Start B</string>
+    <string name="start_c">Start C</string>
+
+    <string name="finish_a">Finish A</string>
+    <string name="finish_b">Finish B</string>
+    <string name="finish_c">Finish C</string>
+
+    <string name="dialog">Dialog</string>
+
+    <string name="close_button">Close</string>
+    <string name="dialog_info">Just a Dialog</string>
+</resources>
